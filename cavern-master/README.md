@@ -6,7 +6,7 @@
 2. Make sure the following Python packages are installed:
    - pygame
    - pgzero
-   - pgero (if used)
+   - pgzrun (if used)
 3. Run the game with the command:
 
 pgzrun cavern.py
