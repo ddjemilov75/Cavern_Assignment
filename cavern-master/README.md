@@ -27,31 +27,31 @@ Also no mention in assignment instructions, or during class, that testing was re
 - Inside src/:
 
 src/
-├─ app.py
-├─ constants.py
-├─ game.py
-├─ init.py
-├─ input.py
-├─ sound.py
-├─ states.py
-├─ utils.py
-├─ music (folder for music files)
-├─ sounds (folder for sound effect files)
-├─ images (folder for image files)
-├─ screens/
-│   ├─ init.py
-│   ├─ game_over.py
-│   ├─ menu.py
-│   └─ play.py
-└─ entities/
-    ├─ base.py
-    ├─ bolt.py
-    ├─ effects.py
-    ├─ fruit.py
-    ├─ init.py
-    ├─ orb.py
-    ├─ player.py
-    └─ robot.py
+   app.py
+   constants.py
+   game.py
+   init.py
+   input.py
+   sound.py
+   states.py
+   utils.py
+   music (folder for music files)
+   sounds (folder for sound effect files)
+   images (folder for image files)
+   screens/
+      init.py
+      game_over.py
+      menu.py
+      play.py
+   entities/
+      base.py
+      bolt.py
+      effects.py
+      fruit.py
+      init.py
+      orb.py
+      player.py
+      robot.py
 
 - Modularization:
   - Split the game into smaller modules: entities for game objects, screens for UI/gameflow.
